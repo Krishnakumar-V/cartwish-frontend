@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, memo } from "react";
 import "./ProductCard.css";
 import config from "../../config.json";
 import star from "../../assets/white-star.png";

@@ -1,4 +1,4 @@
-import React, { useContext, useMemo } from "react";
+import React, { useContext, useMemo, memo } from "react";
 import UserContext from "../../contexts/userContext";
 import "./CartPage.css";
 import remove from "../../assets/remove.png";
